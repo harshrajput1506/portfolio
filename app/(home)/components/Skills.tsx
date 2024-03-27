@@ -38,7 +38,7 @@ export default function Skills() {
     ]
   return (
     <div className='max-w-5xl mx-auto px-8'>
-        <Title text='Skills 🔪' className='flex flex-col justify-center items-center -rotate-6' lineWidth='w-full'/>
+        <Title text='Skills 🔪' className='flex flex-col justify-center items-center -rotate-6 group cursor-pointer' lineClass='w-24'/>
 
         <HoverEffect items={skills}/>
 

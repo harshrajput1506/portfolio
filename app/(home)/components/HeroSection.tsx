@@ -15,14 +15,15 @@ export default function HeroSection() {
             I'm a Fullstack app developer, fueling my passion for innovation through creative app development.
         </p>
 
-        <Link href={"mailto:harshrajput2906@gmail.com"} className=' inline-block group'>
-            <Title text='Contact Me 📭'/>
+        <Link href={'mailto:harshrajput2906@gmail.com'} className=' inline-block'>
+    
+            <Title text='Contact Me 📭' lineClass='w-36' className=' group'/>
         </Link>
 
         </div>
 
         <div className=' relative'>
-            <div className='w-64 h-64 space-y-3 -rotate-[45deg]'>
+            <div className='w-64 h-64 space-y-3 -rotate-[30deg]'>
                 <div className='flex gap-3 translate-x-8'>
                 <div className='w-28 h-26 bg-green-500 rounded-2xl'></div>
                 <div className='w-28 h-28 rounded-full bg-indigo-500'></div>
@@ -36,7 +37,7 @@ export default function HeroSection() {
             </div>
             <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10'>
             <MovingBorderButton borderRadius='0.5rem' className='p-3 font-semibold'>
-                <p>Available for Work</p>
+                <p>📢 Available for Work</p>
             </MovingBorderButton>
             </div>
         </div>   
