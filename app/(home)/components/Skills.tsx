@@ -2,8 +2,9 @@
 
 import React from 'react'
 import Title from './Title'
-import { SiAndroid, SiFlutter, SiJetpackcompose, SiKotlin, SiMysql, SiNodedotjs } from 'react-icons/si'
+import { SiAndroid, SiFigma, SiFlutter, SiJavascript, SiJetpackcompose, SiKotlin, SiMysql, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss } from 'react-icons/si'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
+import { FaJava } from 'react-icons/fa6';
 
 export default function Skills() {
     const skills = [
@@ -20,8 +21,17 @@ export default function Skills() {
             icon: SiJetpackcompose
         },
         {
+            title:"Java",
+            icon: FaJava
+        },
+        {
             title:"Flutter",
             icon: SiFlutter
+        },
+
+        {
+            title:"JavaScript",
+            icon: SiJavascript
         },
        
         {
@@ -32,6 +42,25 @@ export default function Skills() {
         {
             title:"MySql",
             icon: SiMysql
+        },
+        {
+            title:"Figma",
+            icon: SiFigma
+        },
+
+        {
+            title:"React",
+            icon: SiReact
+        },
+
+        {
+            title:"Tailwind CSS",
+            icon: SiTailwindcss
+        },
+
+        {
+            title:"Next.Js",
+            icon: SiNextdotjs
         },
 
     

@@ -16,9 +16,11 @@ export default function page() {
           <HeroSection/>
       </div>
 
-      <div className=' h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
+      
       
       </div>
+
+      <div className=' h-10 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
 
       <div className='mx-auto max-w-7xl p-5 mt-20'>
         <Skills/>

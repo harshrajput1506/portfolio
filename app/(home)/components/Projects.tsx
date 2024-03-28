@@ -4,15 +4,16 @@ import { SiAmazonaws, SiAndroid, SiFirebase, SiJavascript, SiJetpackcompose, SiK
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
+import { FaJava } from 'react-icons/fa6'
 
 export default function Projects() {
     const projects = [
         {
             title:"Quizo",
             tech:[
-                SiAndroid, SiNodedotjs, SiFirebase, SiAmazonaws, SiMysql
+                SiAndroid, FaJava ,SiNodedotjs, SiFirebase, SiAmazonaws, SiMysql
             ],
-            cover: "/cover1.png",
+            cover: "/quizo_cover.png",
             backgroud:"bg-indigo-500",
             link:"https://github.com/harshrajput1506/quizo"
         },
@@ -24,7 +25,7 @@ export default function Projects() {
             ],
             cover: "/cryptowiki_cover.png",
             backgroud:"bg-green-500",
-            link:"https://github.com/harshrajput1506/CryptoWiki"
+            link:"https://play.google.com/store/apps/details?id=in.hypernation.cryptowiki"
         },
 
         {
@@ -32,7 +33,7 @@ export default function Projects() {
             tech:[
                 SiAndroid, SiKotlin
             ],
-            cover: "/cover1.png",
+            cover: "/mappy_cover.png",
             backgroud:"bg-sky-500",
             link:"https://github.com/harshrajput1506/Mappy"
         },
@@ -48,7 +49,7 @@ export default function Projects() {
         }
     ]
   return (
-    <div className='py-10 p-5 sm:p-0 mx-auto'>
+    <div className='py-10 p-5 sm:p-0 mx-auto mt-10'>
          <Title text='Projects 📱' className='flex flex-col justify-center items-center -rotate-6 group cursor-pointer' lineClass='w-32'/>
 
          <div className='grid grid-cola-1 sm:grid-cols-2 pt-20 gap-8'>

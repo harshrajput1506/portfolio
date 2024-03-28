@@ -26,8 +26,8 @@ export default function Navbar({className}:{className?:string}) {
 
 
   return (
-    <nav className={cn('py-10 flex justify-between items-center', className)}>
-        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2 transform hover:animate-rotate cursor-pointer'>Harsh Rajput 👨🏻‍💻</h1>
+    <nav className={cn('py-10 flex justify-between items-center animate-move-down', className)}>
+        <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-6 transform hover:rotate-0 cursor-pointer'>Harsh Rajput 👨🏻‍💻</h1>
         <div className='flex items-center gap-5'>
             {
                 socials.map((social, index) => {

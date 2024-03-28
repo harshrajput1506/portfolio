@@ -71,6 +71,26 @@ const config = {
           from: {transform: 'rotate(-2deg)'},
           to: {transform: 'rotate(6deg)'}
         },
+        "move-up":{
+          from: {
+            transform: 'translateY(10px)',
+            opacity:'0'
+          },
+          to: {
+            transform:'translateY(0px)',
+            opacity:'1'
+          }
+        },
+        "move-down":{
+          from: {
+            transform: 'translateY(-10px)',
+            opacity:'0'
+          },
+          to: {
+            transform:'translateY(0px)',
+            opacity:'1'
+          }
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -83,7 +103,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "rotate": "rotate 0.3s ease-in-out"
+        "rotate": "rotate 0.3s ease-in-out",
+        "move-up":"move-up 1s linear forwards",
+        "move-down":"move-down 1s linear forwards",
       },
     },
   },
