@@ -22,7 +22,7 @@ export default function Projects() {
             tech:[
                 SiAndroid, SiJetpackcompose, SiKotlin
             ],
-            cover: "/cover1.png",
+            cover: "/cryptowiki_cover.png",
             backgroud:"bg-green-500",
             link:"https://github.com/harshrajput1506/CryptoWiki"
         },
@@ -42,7 +42,7 @@ export default function Projects() {
             tech:[
                 SiTypescript, SiNextdotjs, SiTailwindcss, SiJavascript
             ],
-            cover: "/cover1.png",
+            cover: "/portfolio_cover.png",
             backgroud:"bg-orange-500",
             link:"https://github.com/harshrajput1506/portfolio"
         }

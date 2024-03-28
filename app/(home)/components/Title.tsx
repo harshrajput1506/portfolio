@@ -6,7 +6,7 @@ export default function Title(
     ) {
   return (
     <div className={className}>
-        <h1 className=' font-bold text-2xl group-hover:text-green-500 transition-all'>{text}</h1>
+        <h1 className='font-bold text-2xl group-hover:text-green-500 transition-all'>{text}</h1>
         <div className={cn('h-2 bg-green-500 rounded-full', lineClass)}></div>
         <div className={cn('h-2 bg-indigo-500 rounded-full translate-x-2', lineClass)}></div>
     </div>
