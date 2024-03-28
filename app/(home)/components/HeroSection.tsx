@@ -35,11 +35,14 @@ export default function HeroSection() {
             </div>
             <div className='glow absolute top-[40%] right-1/2 -z-10'></div> 
             </div>
-            <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10'>
+            <Link href={"https://drive.google.com/file/d/1LYQBKyKOtNz9BejEXJNI01UKl3Mh5Nr3/view?usp=sharing"} className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10'>
+            <div >
             <MovingBorderButton borderRadius='0.5rem' className='p-3 font-semibold'>
                 <p>📢 Available for Work</p>
             </MovingBorderButton>
             </div>
+            </Link>
+            
         </div>   
     </div>
     
