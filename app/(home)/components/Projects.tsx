@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { SiAmazonaws, SiAndroid, SiFirebase, SiJavascript, SiJetpackcompose, SiKotlin, SiMysql, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiAmazonaws, SiAndroid, SiFirebase, SiJavascript, SiJetpackcompose, SiKotlin, SiMysql, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
@@ -41,7 +41,7 @@ export default function Projects() {
         {
             title:"Portfolio Website",
             tech:[
-                SiTypescript, SiNextdotjs, SiTailwindcss, SiJavascript
+                SiTypescript, SiNextdotjs, SiTailwindcss, SiReact
             ],
             cover: "/portfolio_cover.png",
             backgroud:"bg-orange-500",

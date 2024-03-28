@@ -26,6 +26,7 @@ export const HoverEffect = ({
       {items.map((item, idx) => {
         const Icon = item.icon
         return <div
+          key={idx}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
