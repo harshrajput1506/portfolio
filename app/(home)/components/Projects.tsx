@@ -25,7 +25,7 @@ export default function Projects() {
             ],
             cover: "/cryptowiki_cover.png",
             backgroud:"bg-green-500",
-            link:"https://play.google.com/store/apps/details?id=in.hypernation.cryptowiki"
+            link:"https://github.com/harshrajput1506/CryptoWiki"
         },
 
         {
