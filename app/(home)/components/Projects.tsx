@@ -46,6 +46,16 @@ export default function Projects() {
             cover: "/portfolio_cover.png",
             backgroud:"bg-orange-500",
             link:"https://github.com/harshrajput1506/portfolio"
+        },
+
+        {
+            title:"Political Party Landing Page",
+            tech:[
+                SiReact, SiTailwindcss, SiJavascript
+            ],
+            cover: "/pp_cover.png",
+            backgroud:"bg-yellow-500",
+            link:"https://blp-react.vercel.app"
         }
     ]
   return (
